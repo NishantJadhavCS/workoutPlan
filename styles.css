@@ -11,6 +11,7 @@ body {
     padding: 20px;
     /* small padding for mobile */
     color: #e6edf3;
+    overflow-y: hidden;
 }
 
 .container {
