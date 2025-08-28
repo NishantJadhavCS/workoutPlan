@@ -1,0 +1,265 @@
+{
+    "day1": {
+        "title": "Day 1 – Push (Chest, Shoulders, Triceps + Core)",
+        "exercises": [
+            {
+                "name": "Flat Dumbbell Floor Press",
+                "muscles": [
+                    "Chest",
+                    "Triceps",
+                    "Front Delts"
+                ]
+            },
+            {
+                "name": "Incline Dumbbell Press (floor)",
+                "muscles": [
+                    "Upper Chest",
+                    "Front Delts",
+                    "Triceps"
+                ]
+            },
+            {
+                "name": "Incline Push-ups",
+                "muscles": [
+                    "Chest",
+                    "Triceps",
+                    "Shoulders"
+                ]
+            },
+            {
+                "name": "Overhead Dumbbell Press",
+                "muscles": [
+                    "Front Delts",
+                    "Side Delts",
+                    "Triceps"
+                ]
+            },
+            {
+                "name": "Dumbbell Shrugs",
+                "muscles": [
+                    "Traps"
+                ]
+            },
+            {
+                "name": "Overhead Dumbbell Triceps Extension",
+                "muscles": [
+                    "Triceps (Long Head)"
+                ]
+            },
+            {
+                "name": "Plank",
+                "muscles": [
+                    "Core",
+                    "Abs"
+                ]
+            }
+        ]
+    },
+    "day2": {
+        "title": "Day 2 – Pull (Back, Biceps, Rear Delts + Core)",
+        "exercises": [
+            {
+                "name": "Pull-ups",
+                "muscles": [
+                    "Lats",
+                    "Traps",
+                    "Rhomboids",
+                    "Biceps"
+                ]
+            },
+            {
+                "name": "Barbell Bent-Over Row (overhand)",
+                "muscles": [
+                    "Mid/Upper Back",
+                    "Rear Delts"
+                ]
+            },
+            {
+                "name": "Single-Arm Dumbbell Row",
+                "muscles": [
+                    "Lats",
+                    "Rhomboids"
+                ]
+            },
+            {
+                "name": "Rear Delt Dumbbell Fly",
+                "muscles": [
+                    "Rear Delts",
+                    "Traps"
+                ]
+            },
+            {
+                "name": "Barbell Curl",
+                "muscles": [
+                    "Biceps (Both heads)"
+                ]
+            },
+            {
+                "name": "Cross-Body Dumbbell Curl",
+                "muscles": [
+                    "Outer Biceps",
+                    "Brachialis"
+                ]
+            },
+            {
+                "name": "Superman Hold",
+                "muscles": [
+                    "Lower Back"
+                ]
+            }
+        ]
+    },
+    "day3": {
+        "title": "Day 3 – Legs (Quads, Glutes, Hamstrings, Calves + Core)",
+        "exercises": [
+            {
+                "name": "Bodyweight Squat",
+                "muscles": [
+                    "Quads",
+                    "Glutes"
+                ]
+            },
+            {
+                "name": "Sumo Squat",
+                "muscles": [
+                    "Inner Thighs",
+                    "Glutes"
+                ]
+            },
+            {
+                "name": "Romanian Deadlift",
+                "muscles": [
+                    "Hamstrings",
+                    "Glutes",
+                    "Lower Back"
+                ]
+            },
+            {
+                "name": "Glute Bridge",
+                "muscles": [
+                    "Glutes",
+                    "Hamstrings",
+                    "Core"
+                ]
+            },
+            {
+                "name": "Standing Calf Raise",
+                "muscles": [
+                    "Calves"
+                ]
+            },
+            {
+                "name": "Lying Leg Raises",
+                "muscles": [
+                    "Lower Abs"
+                ]
+            }
+        ]
+    },
+    "day4": {
+        "title": "Day 4 – Push (Chest, Shoulders, Triceps + Core)",
+        "exercises": [
+            {
+                "name": "Flat Dumbbell Floor Press",
+                "muscles": [
+                    "Chest",
+                    "Triceps"
+                ]
+            },
+            {
+                "name": "Reverse Grip Dumbbell Press",
+                "muscles": [
+                    "Upper Chest",
+                    "Inner Chest"
+                ]
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "muscles": [
+                    "Front Delts"
+                ]
+            },
+            {
+                "name": "Dumbbell Lateral Raise",
+                "muscles": [
+                    "Side Delts"
+                ]
+            },
+            {
+                "name": "Lying Dumbbell Triceps Extension (Skullcrusher)",
+                "muscles": [
+                    "Triceps"
+                ]
+            },
+            {
+                "name": "Triceps Kickback",
+                "muscles": [
+                    "Triceps (Lateral Head)"
+                ]
+            },
+            {
+                "name": "Russian Twists",
+                "muscles": [
+                    "Obliques"
+                ]
+            }
+        ]
+    },
+    "day5": {
+        "title": "Day 5 – Pull (Back, Biceps, Rear Delts + Core)",
+        "exercises": [
+            {
+                "name": "Pull-ups",
+                "muscles": [
+                    "Lats",
+                    "Rhomboids",
+                    "Biceps"
+                ]
+            },
+            {
+                "name": "Barbell Bent-Over Row (underhand)",
+                "muscles": [
+                    "Lats",
+                    "Mid Back",
+                    "Biceps"
+                ]
+            },
+            {
+                "name": "Face Pull with Band",
+                "muscles": [
+                    "Rear Delts",
+                    "Traps",
+                    "Rhomboids"
+                ]
+            },
+            {
+                "name": "Rear Delt Dumbbell Fly",
+                "muscles": [
+                    "Rear Delts",
+                    "Traps"
+                ]
+            },
+            {
+                "name": "Dumbbell Curl (Palms In)",
+                "muscles": [
+                    "Inner Biceps"
+                ]
+            },
+            {
+                "name": "Hammer Curl",
+                "muscles": [
+                    "Brachialis",
+                    "Biceps",
+                    "Forearms"
+                ]
+            },
+            {
+                "name": "Bicycle Crunches",
+                "muscles": [
+                    "Abs",
+                    "Obliques"
+                ]
+            }
+        ]
+    }
+}

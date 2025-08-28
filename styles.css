@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0d1117;
+    margin: 0;
+    padding: 100px;
+    color: #e6edf3;
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: linear-gradient(145deg, #141a23, #0d1117);
+    padding: 100px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.2);
+    border: 2px solid rgba(0, 255, 200, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #00ffc8;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.exercise-table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table-header,
+.exercise-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 18px 18px;
+    align-items: center;
+}
+
+.table-header {
+    background: rgba(0, 255, 200, 0.15);
+    font-weight: bold;
+    color: #00ffc8;
+    border-bottom: 1px solid rgba(0, 255, 200, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.exercise-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.exercise-row:hover {
+    background: rgba(0, 255, 200, 0.08);
+    transform: translateX(6px);
+}
+
+.exercise-row span:first-child {
+    font-weight: 600;
+    color: #e6edf3;
+}
+
+.exercise-row span:last-child {
+    font-size: 14px;
+    color: #9da5b4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #8b949e;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .table-header,
+    .exercise-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .table-header {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .exercise-row span:first-child {
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    .exercise-row span:last-child {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 20px 15px;
+    }
+
+    .exercise-row span:last-child {
+        font-size: 12px;
+    }
+}
