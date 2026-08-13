@@ -3,20 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Workout of the Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Workout Plan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1 id="day-title">Workout</h1>
-        <div class="exercise-table">
-            <div class="table-header">
-                <span>Exercise</span>
-                <span>Muscles Worked</span>
+    <div class="bg-glow"></div>
+
+    <div class="app">
+        <header class="app-header">
+            <h1>Weekly Workout Plan</h1>
+            <p class="subtitle">Pick a day to see what's on the menu</p>
+        </header>
+
+        <nav class="day-nav" id="day-nav">
+            <span class="day-nav-pill" id="day-nav-pill" aria-hidden="true"></span>
+        </nav>
+
+        <main class="workout-panel" id="workout-panel">
+            <div class="workout-header">
+                <div>
+                    <h2 id="day-title">Loading…</h2>
+                    <p id="day-focus" class="day-focus"></p>
+                </div>
+                <span id="exercise-count" class="badge"></span>
             </div>
-            <div id="exercise-list"></div>
-        </div>
+
+            <div class="exercise-table" id="exercise-table">
+                <div class="table-header">
+                    <span>Exercise</span>
+                    <span>Muscles Worked</span>
+                </div>
+                <div id="exercise-list"></div>
+            </div>
+
+            <div id="rest-message" class="rest-message" style="display: none;">
+                <div class="rest-icon">🌙</div>
+                <h2>Rest &amp; Recover</h2>
+                <p>No lifting today — let those muscles rebuild.</p>
+                <div class="rest-tips">
+                    <span class="tip-tag">💧 Hydrate</span>
+                    <span class="tip-tag">🧘 Stretch</span>
+                    <span class="tip-tag">😴 Sleep 7-9h</span>
+                    <span class="tip-tag">🚶 Light Walk</span>
+                    <span class="tip-tag">🍗 Eat Protein</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>Stay consistent. Stay strong.</footer>
     </div>
 
     <script src="script.js"></script>
